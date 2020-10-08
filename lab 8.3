@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int A, B, k = 0;
+	scanf_s("%d %d", &A, &B);
+	while (A > B)
+	{
+		A -= B;
+		k++;
+	}
+	printf("%d", A);
+	return 0;
+}

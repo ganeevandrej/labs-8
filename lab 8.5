@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int A;
+	scanf_s("%d",&A);
+	A = (A % 100) * 10 + div(A, 100);
+	printf("%d", A);
+	return 0;
+}
